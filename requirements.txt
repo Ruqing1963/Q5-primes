@@ -1,0 +1,6 @@
+# Q5-primes analysis dependencies
+# Install: pip install -r requirements.txt
+#
+# Note: Only the standard library is required for the core analysis.
+# mpmath is optional (used for high-precision Bateman-Horn constant computation).
+mpmath>=1.3.0
