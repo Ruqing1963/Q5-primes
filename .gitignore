@@ -1,0 +1,33 @@
+# Compiled binaries
+fast_sieve
+fast_sieve.exe
+*.o
+*.obj
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Large data files (hosted on Zenodo)
+data/primes/*.csv
+data/primes/*.zip
+
+# Pipeline intermediates
+survivor_offsets.txt
+pfgw_targets.txt
+
+# OS files
+.DS_Store
+Thumbs.db
